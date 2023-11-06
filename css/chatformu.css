@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+#chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#chat {
+    height: 500px;
+    width: 600pxs;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(../img/fondowha.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+}
+.message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+}
+
+.message-content{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFA500;
+    color: #fff;
+}
+.user-message {
+    background-color: #007bff;
+    color: #fff; 
+    display: inline-block;
+    float: right; 
+}
+#user-input {
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+}
+#boton{
+    color: #fff;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 27.8px;
+}
+.suggested-message {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+.suggested-message p{
+    color: #fff;
+}
+.suggested-message button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.suggested-message button:hover {
+    background-color: #111111;
+}
+.ingreso.input{
+
+}
